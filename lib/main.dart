@@ -25,7 +25,7 @@ class _MyAppState extends State<MyApp> {
       body: Center(child: FlatButton(
         onPressed: (){setState(() {
           question=Random().nextInt(5)+1;
-        });},
+        });} ,
           child: Image(image: AssetImage('images/ball$question.png'),))),
     );
   }
